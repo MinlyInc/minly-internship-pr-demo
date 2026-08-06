@@ -1,0 +1,23 @@
+{
+  "name": "mmdb-screenings",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny screenings library. Used for the Day 1 live review demonstration.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
