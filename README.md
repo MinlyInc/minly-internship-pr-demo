@@ -12,3 +12,4 @@ npm test
 | `available(screening)` | How many seats are still free |
 | `isSoldOut(screening)` | Whether there is anything left to book |
 | `upcoming(list, now)` | Screenings that have not started yet, earliest first |
+| `nextAvailable(list, now)` | The next screening with seats left |
